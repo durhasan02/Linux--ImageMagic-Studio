@@ -8,7 +8,7 @@ Linux Scriptleri ve Araçları Dersi - Dönem Projesi
 ---
 
 ##  Proje Hakkında
-**ImageMagic Studio**, komut satırında kullanılan güçlü resim işleme aracı **ImageMagick** için geliştirilmiş modern ve kullanıcı dostu bir arayüzdür. Bu proje, karmaşık ImageMagick komutlarını bilmeyen kullanıcıların bile profesyonel resim düzenleme işlemlerini kolayca yapabilmesini sağlar.
+**ImageMagic Studio**, komut satırında kullanılan güçlü resim işleme aracı **ImageMagick** için geliştirilmiş modern ve kullanıcı dostu bir arayüzdür. Bu proje, karmaşık ImageMagick komutlarını bilmeyen kullanıcıların bile profesyonel resim düzenleme işlemlerini kolayca yapabilmesini sağlar.Yerli linux dağıtımımız olan PARDUS üzerinde tüm özellikler test edilmiş ve eksiksiz çalışmıştır.
 
 ###  Proje Amacı
 
@@ -404,7 +404,10 @@ convert "$SELECTED_IMAGE" -blur 0x5 "$output"
 convert $images "$output"
 ```
 ---
-
+**Proje Sahibi**: [Durhasan Yazğan]  
+**E-posta**: [durhasanyazgan@gmail.com]  
+**GitHub**: [@durhasan02](https://github.com/durhasan02)
+---
 ## Ek Kaynaklar
 
 - [ImageMagick Resmi Dokümantasyonu](https://imagemagick.org/index.php)
