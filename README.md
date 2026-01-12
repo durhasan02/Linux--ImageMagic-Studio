@@ -143,10 +143,6 @@ Bu proje, Linux Scriptleri ve Araçları dersi kapsamında, **Shell Scripting (B
 ![imagemagic output](screenshots/output.png)
 *işlem yapılan resimlerin tutulduğu output klasörü*
 
-### GUI Sürümü (YAD)
-
-### TUI Sürümü (whiptail)
-
 ---
 
 ##  Kurulum
@@ -184,9 +180,90 @@ chmod +x imagemagic-tui.sh
 ./imagemagic-tui.sh   # TUI sürümü
 ```
 
+### Otomatik Kurulum (Önerilen)
+
+```bash
+# Repoyu klonlayın
+git clone https://github.com/[durhasan02]/Linux-ImageMagic-Studio.git
+cd Linux-ImageMagic-Studio
+
+# Kurulum scriptini çalıştırın
+chmod +x install.sh
+./install.sh
+```
+
+Kurulum scripti otomatik olarak:
+- Gerekli bağımlılıkları kurar
+- Program dosyalarını doğru konuma kopyalar
+- PATH yapılandırmasını yapar
+
+### Manuel Kurulum
+
+```bash
+# 1. Bağımlılıkları kurun
+sudo apt update
+sudo apt install imagemagick yad whiptail bc
+
+# 2. Scriptleri çalıştırılabilir yapın
+chmod +x imagemagic-gui.sh
+chmod +x imagemagic-tui.sh
+
+# 3. Programları kullanmaya başlayın
+./imagemagic-gui.sh   # GUI sürümü
+./imagemagic-tui.sh   # TUI sürümü
+```
+
 ---
 
 ##  Kullanım
+
+### GUI Sürümü
+
+Grafiksel arayüz ile kullanım:
+
+**Temel İş Akışı:**
+1. "Resim Seç" ile düzenlenecek resmi seçin
+2. İstediğiniz işlemi seçin (dönüştürme, boyutlandırma, efekt vb.)
+3. Parametreleri ayarlayın (format, kalite, boyut vb.)
+4. "Uygula" veya "Dönüştür" butonuna tıklayın
+5. İşlenmiş resim `~/ImageMagic-Output` klasörüne kaydedilir
+6. Başarı mesajı ile işlem tamamlandığı bildirilir
+
+### TUI Sürümü
+
+Terminal arayüzü ile kullanım:
+
+**Navigasyon:**
+-  Ok tuşları ile menüde gezinme
+- `Enter` ile seçim yapma
+- `Tab` ile düğmeler arasında geçiş
+- `Esc` veya "İptal" ile geri dönme
+
+### Kullanım Örnekleri
+
+#### Örnek 1: Format Dönüştürme
+```
+1. Ana menüden "Format Dönüştürme" seçin
+2. Hedef format olarak "PNG" seçin
+3. Kalite: 90
+4. "Dönüştür" butonuna tıklayın
+```
+
+#### Örnek 2: Instagram için Boyutlandırma
+```
+1. "Boyutlandırma" seçin
+2. Yöntem: "Hazır Boyutlar"
+3. "Instagram Kare (1080x1080)" seçin
+4. "Uygula" butonuna tıklayın
+```
+
+#### Örnek 3: PDF Oluşturma
+```
+1. "PDF Oluştur" seçin
+2. Birden fazla resim seçin (Ctrl tuşu ile)
+3. Resimler otomatik olarak PDF'e dönüştürülür
+4. PDF dosyası çıktı klasörüne kaydedilir
+```
 
 ### GUI Sürümü
 
@@ -285,7 +362,6 @@ Linux-ImageMagic-Studio/ (Ana Dizin)
 - **GUI Kütüphanesi**: YAD (Yet Another Dialog)
 - **TUI Kütüphanesi**: whiptail
 - **Image Processing**: ImageMagick
-- **Versiyon Kontrolü**: Git
 
 ### Kod Özellikleri
 
