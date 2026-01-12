@@ -29,14 +29,14 @@ Bu proje, Linux Scriptleri ve Araçları dersi kapsamında, **Shell Scripting (B
 ###  Dosya İşlemleri
 -  Resim seçme ve önizleme
 -  Detaylı resim bilgileri (boyut, format, EXIF vb.)
-![Ana Menü](screenshots/gui-ana-menu.png)
+- ![Ana Menü](screenshots/gui-ana-menu.png)
 
 ###  Format Dönüştürme
 - **Desteklenen Formatlar**: JPG, PNG, WEBP, BMP, GIF, TIFF
 - Kalite ayarı (1-100)
 - Tek tık ile dönüştürme
-![ Gui Format Değiştirme](screenshots/gui-format.png)
-![Tui Format Değiştirme](screenshots/tui-format.png)
+- ![ Gui Format Değiştirme](screenshots/gui-format.png)
+- ![Tui Format Değiştirme](screenshots/tui-format.png)
 
 
   
