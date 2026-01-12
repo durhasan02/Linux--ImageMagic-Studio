@@ -27,14 +27,55 @@ Bu proje, Linux Scriptleri ve Araçları dersi kapsamında, **Shell Scripting (B
 ##  Özellikler
 
 ###  Dosya İşlemleri
-###  Format Dönüştürme
-###  Boyutlandırma
-###  Kırpma
-###  Döndürme & Çevirme
-###  Filtreler & Efektler
-###  Metin & Watermark
-###  PDF Oluşturma
+-  Resim seçme ve önizleme
+-  Detaylı resim bilgileri (boyut, format, EXIF vb.)
 
+###  Format Dönüştürme
+- **Desteklenen Formatlar**: JPG, PNG, WEBP, BMP, GIF, TIFF
+- Kalite ayarı (1-100)
+- Tek tık ile dönüştürme
+###  Boyutlandırma
+- **Piksel bazlı**: Manuel genişlik x yükseklik
+- **Yüzde bazlı**: %50, %75 gibi oransal boyutlandırma
+- **Hazır boyutlar**: 
+  - Instagram Kare (1080x1080)
+  - Instagram Dikey (1080x1350)
+  - HD (1920x1080)
+  - 4K (3840x2160)
+  - Facebook Kapak (820x312)
+- En-boy oranını koruma seçeneği
+
+###  Kırpma
+- Merkez kırpma
+- Kare kırpma (1:1)
+- Oran bazlı kırpma (16:9, 4:3, 3:2)
+- Manuel kırpma (X, Y koordinatları ile)
+  
+###  Döndürme & Çevirme
+- 90°, 180°, 270° döndürme
+- Yatay ve dikey çevirme
+  
+###  Filtreler & Efektler
+- **Bulanıklaştırma** (Blur)
+- **Keskinleştirme** (Sharpen)
+- **Siyah-Beyaz** dönüşüm
+- **Sepia** tone efekti
+- **Vintage** stil
+  
+###  Metin & Watermark
+- Resme metin ekleme
+- Font boyutu ayarı
+- Renk seçimi
+- Pozisyon seçimi (merkez, köşeler, özel)
+- Şeffaflık ayarı
+- Copyright watermark ekleme
+  
+###  PDF Oluşturma
+- Birden fazla resimden PDF oluşturma
+- Çoklu resim seçimi
+- Otomatik sıralama
+- İlerleme göstergesi
+  
 ---
 
 ##  Ekran Görüntüleri
