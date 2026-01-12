@@ -1,4 +1,4 @@
-# Linux--ImageMagic-Studio
+# Linux-ImageMagic-Studio
 
 **ImageMagick Kullanıcı Dostu GUI ve TUI Arayüzü**
 **PARDUS İle Tam Uyumlu**
