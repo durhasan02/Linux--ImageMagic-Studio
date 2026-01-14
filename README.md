@@ -26,7 +26,7 @@ Bu proje, Linux Scriptleri ve Araçları dersi kapsamında, **Shell Scripting (B
 ## Video Tanıtımı
 
  **YouTube Videosu**: [ImageMagic Studio - Tanıtım ve Kullanım]( )
-Videoda:
+-Videoda:
 -  Kurulum adımları
 -  GUI ve TUI kullanımı
 -  Tüm özelliklerin demonstrasyonu
